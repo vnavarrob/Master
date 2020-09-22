@@ -1,0 +1,201 @@
+.header{
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+}
+.profile-small{
+    border-radius: 50%;
+    height: 40px;
+    width: 40x;
+    box-sizing: border-box;
+    border: 2px solid #111111;
+}
+.main{
+    display: block;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top{
+    margin-bottom: 32px;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.inner-top{
+
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-medium{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.name{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.description-bold{
+   text-align: center;
+   padding-bottom: 4px;
+    padding-top: 4px;;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.description{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .medium{
+    top: 5px;
+    height: 10px;
+    justify-content: space-between;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+
+ }
+ .med{
+     display: flex;
+     justify-content: center;
+     display: block;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+
+ }
+
+ .icons{
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+
+ }
+ .boards{
+    align-content: center;
+    color: white;
+    height: 48px;
+    min-width: 80px;
+    background-color: black;
+    border-radius: 999px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    transition: transform 85ms ease-out;
+}
+.pins{
+    align-content: center;
+    color: black;
+    height: 48px;
+    min-width: 80px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    transition: transform 85ms ease-out;
+}
+
+.gallery{
+  display: flex; 
+  margin-top: 50px;
+  border-top-left-radius: 45px 40px;
+    border-top-right-radius: 45px 40px;
+    border-bottom-left-radius: 45px 40px;
+    border-bottom-right-radius: 45px 40px;
+    flex-wrap: wrap;
+}
+
+.show{
+    width: 280px;
+    height: 250px;
+    max-width: 336px;
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: block;
+    border-radius: 999px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.imagen1{
+    height: 250px;
+    width: 250px;
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 25px;
+}
+.imagen2{
+    width: 106px;
+    height: 106px;
+}
+.imagen3{
+    width: 106px;
+    height: 106px;
+}
+
+.boton {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 999px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 85ms ease-out;
+  }
+  .boton2 {
+    background-color: white; /* Green */
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 999px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 85ms ease-out;
+    font-weight: bold;
+  }
+
+  .picdesc{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  .subdesc{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+  }

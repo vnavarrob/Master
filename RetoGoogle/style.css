@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    background-image: url(Imagen/where.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.img{
+    padding-top: 150px;
+    display: block;
+    width: 20%;
+    margin-left: 500px;
+    margin-right: auto;
+}
+.link-header{
+    color: white;
+    float: right;
+    padding: 3px;
+}
+.link-center{
+    color: white;
+    display: block;
+    padding: 20px;
+
+}
+.li-center{
+    display: inline;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buscar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 40%;
+}
+nav{
+    display: inline;
+    color: white;
+    text-align: right;
+}
+
+li-right{
+    float: right;
+    padding: 7px;
+}
+.header{
+    list-style: none;
+    display: inline;
+}
+.profile {
+   border-radius: 50%;
+   width: 3%;
+
+}
+.iconos{
+    border-radius: 90%;
+    width: 20%;
+    height: 20%;
+    float: left;
+
+}
+
+.lileft{
+    display: inline-block;
+    padding: 1px;
+    width: 150px;
+}
+
+.ulleft{
+ margin-left: 350px;
+}
+.labels{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+
